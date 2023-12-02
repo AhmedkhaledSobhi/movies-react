@@ -35,7 +35,7 @@ const [theMovie, setTheMovie] = useState([]);
                     </div>
                   </div>
 
-                  {theMovie.map((movie , i)=> <div key={i} className='col-md-3'>
+                  {theMovie.map((movie , i)=> <div key={i} className='col-md-3 '>
                     <Link to={`/movieDetails/${movie.id}`} >
                       
                     <div className='position-relative'>

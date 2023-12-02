@@ -40,7 +40,7 @@ export default function LogUp() {
                 }
                 else
                 {
-                let {data}= await Axios.post('https://route-egypt-api.herokuapp.com/signup',User); 
+                let {data}= await Axios.post('https://movies-api.routemisr.com/signup',User); 
                     if(data.message==='success')
                     {
                         setIsLoading(false);
